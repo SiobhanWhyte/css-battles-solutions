@@ -1,0 +1,35 @@
+<div class="container">
+<div class="rec"></div>
+  <div class="circle"></div>
+  <div class="half"></div>
+  </div>
+<style>
+* {background: #6592CF;}
+.container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-16.7%);
+  }
+.rec { 
+height: 150px;
+width: 300px;
+background-color: #243D83;
+  }
+.circle {
+height: 50px;
+width: 50px;
+background-color: #EEB850;
+border-radius: 50%;
+transform: translate(250%,-200%);
+  }
+.half{
+ border:50px solid #6592CF;
+ border-radius:50%;
+ background:rgba(0,0,0,0);
+ width:150px;
+ height:150px;
+ line-height:200px;
+ transform: translate(10%,-100%);
+  }
+</style>
