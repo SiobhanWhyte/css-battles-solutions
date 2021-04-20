@@ -1,0 +1,22 @@
+<div class="s"></div>
+<div class="s"></div>
+</div>
+<style>
+  * {
+    background:#62374e;
+    margin: 17
+  }
+  .container {
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 40px;
+      column-gap: 140px;
+    row-gap: 99px;
+  }
+  
+  .s {
+    background:#fdc57b;
+    height:50;
+    width:50;
+  }
+</style>
