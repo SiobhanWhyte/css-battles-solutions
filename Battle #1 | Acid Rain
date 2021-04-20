@@ -1,0 +1,41 @@
+<div class="con">
+<div class="c"></div>
+<div class="b"></div>
+<div class="a"></div>
+</div>
+<style>
+  
+  * {
+    background:#0B2429;
+  }
+  
+  .con {
+    display:grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 50px 50px;
+    margin: 40 70;
+  }
+  
+  .a {
+    height:120px;
+    width:120px;
+    border-radius: 50% 2% 50% 50%;
+    background:#F3AC3C;
+    grid-column: 1 / span 2;
+  }
+  .b {
+    height:120px;
+    width:120px;
+    border-radius: 50% 2% 50% 50%;
+    background:#998235;
+      grid-column: 2 / span 2;
+  }
+  .c {
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    background:#F3AC3C;
+    grid-column: 3 / span 2;
+  }
+</style>
+
