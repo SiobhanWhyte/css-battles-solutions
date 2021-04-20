@@ -1,0 +1,23 @@
+<div class=c>
+<div class="y"></div>
+<div class="o"></div>
+  </div>
+  
+<style>
+  * {
+    background:#AA445F;
+    margin:17 20;}
+  .c {
+    position: relative;
+    display:flex;}
+  .y {
+    height:200px;
+     width:100px;
+     border-radius: 100px 0 0 100px;
+    background:#F7EC7D; }
+   .o {
+   height:200px;
+     width:100px;
+     border-radius: 0 100px 100px 0;
+     background:#E38F66; }
+</style>
