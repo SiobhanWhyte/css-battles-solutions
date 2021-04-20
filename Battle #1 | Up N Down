@@ -1,0 +1,49 @@
+<div class="container">
+<div class="s a"></div>
+<div class="s b"></div>
+<div class="s c"></div>
+  </div>
+<style>
+  
+  * {
+    background:#62306D;
+  }
+  .container {
+    display: grid; 
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 100px 100px;
+    column-gap: 49px;
+    row-gap: 0px;
+    margin:  50;
+  }
+  
+  .s {
+    background:#F7EC7D;
+    
+  }
+  
+  .a {
+     height:100px;
+     width:100px;
+     border-radius: 0 0 90px 90px;
+    grid-column: 1; 
+      grid-row:2;
+  }
+  
+  .b {
+     height:100px;
+     width:100px;
+     border-radius:90px 90px 0 0;
+     grid-column: 2; 
+      grid-row:1;
+  }
+  
+  .c {
+     height:100px;
+     width:100px;
+     border-radius: 0 0 90px 90px;
+     grid-column: 3; 
+     grid-row:2;
+  }
+  
+</style>
