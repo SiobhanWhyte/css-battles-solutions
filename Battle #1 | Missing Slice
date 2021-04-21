@@ -1,0 +1,38 @@
+<div class="c">
+<div class="g"></div>
+<div class="y"></div>
+<div class="w"></div>
+  </div>
+<style>
+  * {
+    background:#E3516E;
+  }
+  
+  .c {
+    display:grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin: 51 90;
+  }
+  
+  .y {
+    background:#FADE8B;
+     width:100px; 
+     height:100px; 
+     border-radius:0 90px 0 0;
+  }
+  
+  .g {
+    background:#51B5A9;
+     width:100px; 
+     height:100px; 
+     border-radius:90px 0 0 0;
+  }
+  
+  .w {
+    background:#F7F3D7;
+     width:100px; 
+     height:100px; 
+     border-radius:0 0 0 90px;
+  }
+</style>
